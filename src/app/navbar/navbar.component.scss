@@ -1,0 +1,30 @@
+.sidebar {
+  background-color: #f2f2f2;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-item a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.sidebar-item a:hover {
+  background-color: #ddd;
+}
