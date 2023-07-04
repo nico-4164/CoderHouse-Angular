@@ -1,0 +1,12 @@
+<h2>Listado de Alumnos</h2>
+
+<ul>
+  <li *ngFor="let alumno of alumnos" [ngClass]="{'texto-rojo': alumno.promedioNotas < 7}">
+    Nombre: {{ alumno.nombre }} <br>
+    Edad: {{ alumno.edad }} <br>
+    Promedio de notas: {{ alumno.promedioNotas }}
+    <p>*******************</p>
+  </li>
+</ul>
+
+<p>Fecha actual: {{ fechaActual | date }}</p>
