@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainComponent } from './main/main.component';
-import { AlumnosComponent } from './alumnos/alumnos/alumnos.component';
+import { AlumnosComponent } from './components/alumnos/alumnos/alumnos.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,13 @@ import { AlumnosComponent } from './alumnos/alumnos/alumnos.component';
     ToolbarComponent,
     NavbarComponent,
     MainComponent,
-    AlumnosComponent
+    AlumnosComponent,
+    FormularioComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
