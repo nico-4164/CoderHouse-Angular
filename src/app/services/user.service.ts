@@ -9,9 +9,9 @@ export class UserService {
   private users: User[] = [
     { id: 1, name: 'James Bond', email: 'james@gmail.com' },
     { id: 2, name: 'Jane Smith', email: 'jane@gmail.com' },
-    { id: 3, name: 'Tio Bob', email: 'bob@gmail.com' },
-    { id: 4, name: 'Alice Wonderlands',email: 'alice@gmail.com',},
-    { id: 5, name: 'Michael Jackson',email: 'michael@gmail.com',}
+    { id: 3, name: 'Tio Bob', email: 'bob@yahoo.com' },
+    { id: 4, name: 'Alice Wonderlands',email: 'alice@hotmail.com',},
+    { id: 5, name: 'Michael Jackson',email: 'michael@hotmail.com',}
   ];
 
   getUsersWithPromise(): Promise<User[]> {
