@@ -8,15 +8,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
 import {MatListModule} from '@angular/material/list';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCardModule} from '@angular/material/card';
 
 //componentes
 import { AlumnosComponent } from 'src/app/components/alumnos/alumnos.component';
 import { UserListComponent } from 'src/app/components/user-list/user-list.component';
 import { ClasesComponent } from 'src/app/components/clases/clases.component';
+import { CursosComponent } from 'src/app/components/cursos/cursos.component';
 
 //servicios
 import { UserService } from 'src/app/services/user.service';
@@ -26,7 +28,8 @@ import { UserService } from 'src/app/services/user.service';
     DashboardComponent,
     AlumnosComponent,
     UserListComponent,
-    ClasesComponent
+    ClasesComponent,
+    CursosComponent
   ],
   imports: [
     CommonModule,
@@ -37,6 +40,7 @@ import { UserService } from 'src/app/services/user.service';
     MatListModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCardModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule

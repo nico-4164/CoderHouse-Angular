@@ -15,8 +15,6 @@ import { DashboardModule } from './modules/dashboard/dashboard/dashboard.module'
 
 //servicios
 import { UserService } from 'src/app/services/user.service';
-import { ClasesComponent } from './components/clases/clases.component';
-import { CursosComponent } from './components/cursos/cursos.component';
 
 
 @NgModule({
@@ -26,8 +24,6 @@ import { CursosComponent } from './components/cursos/cursos.component';
     NavbarComponent,
     MainComponent,
     FormularioComponent,
-    ClasesComponent,
-    CursosComponent,
   ],
   imports: [
     BrowserModule,

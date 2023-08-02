@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { ClasesService } from './clases.service';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-clases',
