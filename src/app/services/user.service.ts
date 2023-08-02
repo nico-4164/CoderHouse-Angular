@@ -6,6 +6,7 @@ import { User } from '../models/user.model';
   providedIn: 'root'
 })
 export class UserService {
+  
   private users: User[] = [
     { id: 1, name: 'James Bond', email: 'james@gmail.com' },
     { id: 2, name: 'Jane Smith', email: 'jane@gmail.com' },

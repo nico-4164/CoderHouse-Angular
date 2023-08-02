@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 //componentes
@@ -15,6 +15,8 @@ import { DashboardModule } from './modules/dashboard/dashboard/dashboard.module'
 
 //servicios
 import { UserService } from 'src/app/services/user.service';
+import { ClasesComponent } from './components/clases/clases.component';
+import { CursosComponent } from './components/cursos/cursos.component';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { UserService } from 'src/app/services/user.service';
     NavbarComponent,
     MainComponent,
     FormularioComponent,
+    ClasesComponent,
+    CursosComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +35,7 @@ import { UserService } from 'src/app/services/user.service';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     DashboardModule,
+    AppRoutingModule
   ],
   providers: [
     UserService
