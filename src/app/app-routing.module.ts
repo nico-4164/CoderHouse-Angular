@@ -9,6 +9,7 @@ import { AlumnosComponent } from './components/alumnos/alumnos.component';
 
 import { AuthComponent } from './modules/auth/auth.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { authGuard } from './modules/auth/auth.guard';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent,
@@ -17,7 +18,7 @@ const routes: Routes = [
     { path:  'clases', component: ClasesComponent},
     { path:  'cursos', component: CursosComponent}
     ]},
-    { path: 'auth', component: AuthComponent,
+    { path: 'auth',canActivate:[authGuard], component: AuthComponent,
   children: [
     { path:  'login', component: FormularioComponent},
     ]}
