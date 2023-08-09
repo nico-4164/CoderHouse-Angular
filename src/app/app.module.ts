@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 //componentes
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
@@ -12,6 +13,7 @@ import { MainComponent } from './main/main.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardModule } from './modules/dashboard/dashboard/dashboard.module';
+import { AuthModule } from './modules/auth/auth.module';
 
 //servicios
 import { UserService } from 'src/app/services/user.service';
@@ -31,7 +33,8 @@ import { UserService } from 'src/app/services/user.service';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     DashboardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     UserService

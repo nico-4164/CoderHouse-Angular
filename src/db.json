@@ -1,0 +1,28 @@
+{
+    "alumnos":[
+        { "id": "01", "nombre": "Juan", "apellido": "Sanchez", "edad": 13, "promedioNotas": 8.5 },
+        { "id": "02", "nombre": "María", "apellido": "La del barrio", "edad": 23, "promedioNotas": 7.2 },
+        { "id": "03", "nombre": "Pedro", "apellido": "Parker", "edad": 13, "promedioNotas": 6.8 },
+        { "id": "04", "nombre": "Ana", "apellido": "May", "edad": 23, "promedioNotas": 9.0 },
+        { "id": "05", "nombre": "Luisa", "apellido": "Lane", "edad": 23, "promedioNotas": 7.8 },
+        { "id": "06", "nombre": "Carlos", "apellido": "Villagran", "edad": 13, "promedioNotas": 6.5 },
+        { "id": "07", "nombre": "Sofía", "apellido": "Carrizo", "edad": 13, "promedioNotas": 8.9 },
+        { "id": "08", "nombre": "Andrés", "apellido": "Escobar", "edad": 23, "promedioNotas": 9.2 },
+        { "id": "09", "nombre": "Laura", "apellido": "Gimenez", "edad": 23, "promedioNotas": 7.1 },
+        { "id": "10", "nombre": "Diego", "apellido": "Maradonna", "edad": 13, "promedioNotas": 6.3 }
+      ],
+    "cursos":[
+        {"title": "Curso de Angular","subtitle": "Avanzado","imageUrl": "https://imgur.com/puP2Vkn.png","description": "Este curso te enseñará a desarrollar aplicaciones web con Angular."},
+        {"title": "Curso de React","subtitle": "Intermedio","imageUrl": "https://imgur.com/mvF1jnB.png","description": "Aprende a construir interfaces de usuario interactivas con React."},
+        {"title": "Curso de Vue.js","subtitle": "Básico","imageUrl": "https://imgur.com/YDGXEJC.png","description": "Introdúcete en el mundo de Vue.js y construye aplicaciones modernas."},
+        {"title": "Curso de JavaScript","subtitle": "Fundamentos","imageUrl": "https://imgur.com/y8vziSb.png","description": "Aprende los fundamentos del lenguaje de programación JavaScript."},
+        {"title": "Curso de Python","subtitle": "Avanzado","imageUrl": "https://imgur.com/olbt6yV.png","description": "Este curso te llevará al siguiente nivel en Python y su ecosistema."}          
+    ],
+    "clases":[
+        {"number": 10,"name": "introduccion a la programacion","date": "2023-07-28","time": "18:00 PM"},
+        {"number": 20,"name": "variables y metodos","date": "2023-08-04","time": "18:00 PM"},
+        {"number": 30,"name": "creacion de clases","date": "2023-08-11","time": "18:00 PM"},
+        {"number": 40,"name": "Herencia en objetos","date": "2023-08-18","time": "18:00 PM"},
+        {"number": 50,"name": "Base de datos","date": "2023-08-25","time": "18:00 PM"}  
+    ]
+}
