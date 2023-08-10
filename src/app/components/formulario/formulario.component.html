@@ -28,7 +28,8 @@
       <label for="other">Otro valor no obligatorio:</label>
       <input type="text" id="other" formControlName="other">
     </div>
-  
+
+    <button (click)="submitForm()" type="submit" [disabled]="myForm.invalid">Enviar</button>
     <a routerLink="alumnos">Enviar</a>
   </form>
 </div>

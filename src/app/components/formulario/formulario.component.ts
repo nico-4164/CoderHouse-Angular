@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms';
 
+
 @Component({
   selector: 'app-formulario',
   templateUrl: './formulario.component.html',
@@ -43,5 +44,7 @@ export class FormularioComponent implements OnInit {
       // Lógica para enviar los datos del formulario
     }
   }
+
+  
 
 }

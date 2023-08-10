@@ -16,7 +16,6 @@ import {MatCardModule} from '@angular/material/card';
 
 //componentes
 import { AlumnosComponent } from 'src/app/components/alumnos/alumnos.component';
-import { UserListComponent } from 'src/app/components/user-list/user-list.component';
 import { ClasesComponent } from 'src/app/components/clases/clases.component';
 import { CursosComponent } from 'src/app/components/cursos/cursos.component';
 
@@ -27,7 +26,6 @@ import { UserService } from 'src/app/services/user.service';
   declarations: [
     DashboardComponent,
     AlumnosComponent,
-    UserListComponent,
     ClasesComponent,
     CursosComponent
   ],
