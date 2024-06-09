@@ -11,7 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormularioComponent } from './components/formulario/formulario.component'
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DashboardModule } from './modules/dashboard/dashboard/dashboard.module';
+import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { AuthModule } from './modules/auth/auth.module';
 
 //servicios

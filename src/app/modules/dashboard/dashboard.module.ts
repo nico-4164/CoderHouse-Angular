@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { DashboardComponent } from './dashboard.component';
 
+//librerias
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
